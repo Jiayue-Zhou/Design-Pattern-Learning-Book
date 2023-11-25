@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class FlyNoWay {
+public class FlyNoWay implements FlyBehavior{
+    public void fly() {
+        System.out.println("I cannot fly!");
+    }
 }

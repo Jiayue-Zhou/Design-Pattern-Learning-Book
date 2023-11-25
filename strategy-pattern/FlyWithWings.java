@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class FlyWithWings {
+public class FlyWithWings implements FlyBehavior {
+    public void fly() {
+        System.out.println("Fly with wings!");
+    }
 }

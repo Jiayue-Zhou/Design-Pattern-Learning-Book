@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class MuteQuack {
+public class MuteQuack implements QuackBehavior{
+    @Override
+    public void quack() {
+        System.out.println("...(Mute)");
+    }
 }
